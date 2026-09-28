@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopEase | Product Catalog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="index.html"><span class="brand-mark">S</span><span>ShopEase</span></a>
+  <nav>
+    <a class="active" href="index.html">Products</a>
+    <a class="cart-link" href="cart.html">Cart <span id="cartCount" class="cart-count">0</span></a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <p class="eyebrow">TASK 5 • PRODUCT CATALOG</p>
+      <h1>Find products you’ll love.</h1>
+      <p>Search, filter, sort and shop from a responsive product catalog.</p>
+    </div>
+    <div class="hero-badge">18+ products<br><small>Ready to explore</small></div>
+  </section>
+
+  <section class="controls">
+    <div class="search-wrap">
+      <span>⌕</span>
+      <input id="searchInput" type="search" placeholder="Search products by name..." autocomplete="off">
+    </div>
+    <select id="categoryFilter" aria-label="Filter by category">
+      <option value="all">All Categories</option>
+    </select>
+    <select id="sortSelect" aria-label="Sort products">
+      <option value="default">Sort: Featured</option>
+      <option value="price-asc">Price: Low → High</option>
+      <option value="price-desc">Price: High → Low</option>
+      <option value="name-asc">Name: A → Z</option>
+      <option value="name-desc">Name: Z → A</option>
+    </select>
+  </section>
+
+  <div class="results-row">
+    <p id="resultInfo">Loading products...</p>
+    <button id="clearFilters" class="clear-btn">Clear filters</button>
+  </div>
+
+  <section id="productGrid" class="product-grid" aria-live="polite"></section>
+  <div id="emptyState" class="empty-state hidden">
+    <div>🔎</div><h2>No products found</h2><p>Try another search or clear the filters.</p>
+  </div>
+  <nav id="pagination" class="pagination" aria-label="Product pages"></nav>
+</main>
+
+<div id="toast" class="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>

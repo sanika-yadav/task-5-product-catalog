@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "Smart Headphones",
+    "price": 2999,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+    "description": "Wireless over-ear headphones with clear sound, soft ear cushions and a modern design.",
+    "rating": 4.6
+  },
+  {
+    "id": 2,
+    "title": "Running Shoes",
+    "price": 1599,
+    "category": "Fashion",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+    "description": "Lightweight running shoes designed for everyday comfort and active lifestyles.",
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "title": "Classic Backpack",
+    "price": 1199,
+    "category": "Fashion",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80",
+    "description": "Durable everyday backpack with spacious compartments for college, work and travel.",
+    "rating": 4.4
+  },
+  {
+    "id": 4,
+    "title": "Smart Watch",
+    "price": 3499,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+    "description": "Stylish smartwatch with activity tracking, notifications and a bright display.",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "title": "Cotton T-Shirt",
+    "price": 699,
+    "category": "Fashion",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80",
+    "description": "Comfortable cotton T-shirt with a clean everyday look and regular fit.",
+    "rating": 4.3
+  },
+  {
+    "id": 6,
+    "title": "Coffee Maker",
+    "price": 2499,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=800&q=80",
+    "description": "Compact coffee maker for quick and convenient coffee at home or in the office.",
+    "rating": 4.5
+  },
+  {
+    "id": 7,
+    "title": "Ceramic Plant Pot",
+    "price": 499,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=800&q=80",
+    "description": "Minimal ceramic planter that adds a fresh decorative touch to your space.",
+    "rating": 4.2
+  },
+  {
+    "id": 8,
+    "title": "Bluetooth Speaker",
+    "price": 1899,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80",
+    "description": "Portable Bluetooth speaker with rich audio and a compact travel-friendly body.",
+    "rating": 4.6
+  },
+  {
+    "id": 9,
+    "title": "Organic Green Tea",
+    "price": 349,
+    "category": "Grocery",
+    "image": "https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?auto=format&fit=crop&w=800&q=80",
+    "description": "Refreshing green tea made for a simple and relaxing daily beverage routine.",
+    "rating": 4.4
+  },
+  {
+    "id": 10,
+    "title": "Yoga Mat",
+    "price": 899,
+    "category": "Sports",
+    "image": "https://images.unsplash.com/photo-1601925228614-5c1b1f1a0c7c?auto=format&fit=crop&w=800&q=80",
+    "description": "Non-slip exercise mat suitable for yoga, stretching and home workouts.",
+    "rating": 4.5
+  },
+  {
+    "id": 11,
+    "title": "Water Bottle",
+    "price": 599,
+    "category": "Sports",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=800&q=80",
+    "description": "Reusable insulated bottle that helps keep drinks convenient during the day.",
+    "rating": 4.3
+  },
+  {
+    "id": 12,
+    "title": "Desk Lamp",
+    "price": 999,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80",
+    "description": "Modern desk lamp with a clean silhouette for study and work spaces.",
+    "rating": 4.5
+  },
+  {
+    "id": 13,
+    "title": "Wireless Mouse",
+    "price": 799,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+    "description": "Ergonomic wireless mouse for comfortable everyday laptop and desktop use.",
+    "rating": 4.4
+  },
+  {
+    "id": 14,
+    "title": "Denim Jacket",
+    "price": 2199,
+    "category": "Fashion",
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=800&q=80",
+    "description": "Classic denim jacket that works well with casual outfits across seasons.",
+    "rating": 4.6
+  },
+  {
+    "id": 15,
+    "title": "Face Wash",
+    "price": 449,
+    "category": "Beauty",
+    "image": "https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=800&q=80",
+    "description": "Gentle daily face wash designed for a clean and fresh skincare routine.",
+    "rating": 4.2
+  },
+  {
+    "id": 16,
+    "title": "Sunglasses",
+    "price": 1299,
+    "category": "Fashion",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=800&q=80",
+    "description": "Classic sunglasses with a versatile frame for everyday outdoor wear.",
+    "rating": 4.4
+  },
+  {
+    "id": 17,
+    "title": "Mechanical Keyboard",
+    "price": 2799,
+    "category": "Electronics",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+    "description": "Responsive mechanical keyboard for productive typing and gaming sessions.",
+    "rating": 4.7
+  },
+  {
+    "id": 18,
+    "title": "Table Clock",
+    "price": 749,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?auto=format&fit=crop&w=800&q=80",
+    "description": "Simple table clock with a modern design for desks and bedside tables.",
+    "rating": 4.1
+  }
+]
